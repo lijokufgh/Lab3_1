@@ -2,17 +2,17 @@
 {
     public class Lab_1 // Создаём основной класс.
     {
-        public double log; // Переменая для логорифма.
-        public double osn; // Переменая для основания.
-        public int okr; // Переменая для округления.
+        public double log; // Переменная для логарифма.
+        public double osn; // Переменная для основания.
+        public int okr; // Переменная для округления.
 
         public Lab_1() // Заполняем переменные. Выводиться при вызови объекта.
         {
-            Console.WriteLine("Введите логорифм: ");
+            Console.WriteLine("Введите логарифм: ");
             log = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите основани: ");
+            Console.WriteLine("Введите основание: ");
             osn = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите до скольки знаков округлять: ");
+            Console.WriteLine("Введите до скольких знаков округлять: ");
             okr = int.Parse(Console.ReadLine());
         }
     }
